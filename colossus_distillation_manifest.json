@@ -1,0 +1,30 @@
+[
+    {
+        "distillationFrameIdentifier": "DIST-00001",
+        "probabilityDistributionTelemetry": {
+            "unscaledTeacherModelLogit": 6.754,
+            "unscaledStudentModelLogit": 5.449,
+            "calculatedInformationLossDelta": 0.9392
+        },
+        "compressionModelGovernance": {
+            "appliedSoftmaxTemperature": 3.0,
+            "distillationFidelityStatus": "COMPRESSION_STABLE_ALIGNED",
+            "ColossusAgentActionDirective": "COMMIT_STUDENT_WEIGHT_ADJUSTMENT",
+            "pipelineResponseStatusCode": 200
+        }
+    },
+    {
+        "distillationFrameIdentifier": "DIST-00002",
+        "probabilityDistributionTelemetry": {
+            "unscaledTeacherModelLogit": 5.512,
+            "unscaledStudentModelLogit": 5.881,
+            "calculatedInformationLossDelta": 0.0
+        },
+        "compressionModelGovernance": {
+            "appliedSoftmaxTemperature": 3.0,
+            "distillationFidelityStatus": "COMPRESSION_STABLE_ALIGNED",
+            "ColossusAgentActionDirective": "COMMIT_STUDENT_WEIGHT_ADJUSTMENT",
+            "pipelineResponseStatusCode": 200
+        }
+    }
+]
